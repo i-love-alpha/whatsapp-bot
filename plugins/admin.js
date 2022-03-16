@@ -171,7 +171,7 @@ Asena.addCommand(
 
 Asena.addCommand(
   {
-    pattern: "group link?(.*)",
+    pattern: "group link ?(.*)",
     fromMe: true,
     onlyGroup: true,
     desc: Lang.INVITE_DESC,
